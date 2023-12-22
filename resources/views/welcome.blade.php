@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-   <meta charset="UTF-8" />    
+   <meta charset="UTF-8" />   
    @vite('resources/css/app.css')
    @vite('resources/css/style.css')
    @vite('resources/js/app.js')
@@ -68,31 +68,31 @@
       </div>
     </div>
 </header>
-  <div class="relative isolate px-6 pt-14 lg:px-8">
+<div class="relative isolate px-6 pt-14 lg:px-8">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu min-h-screen" aria-hidden="true">
       <div class="relative sliderImg">
         <img src="./assets/slider-img.jpeg" />
       </div>
     </div>
     <div class="pt-20 sm:pt-40 lg:pt-40 pb-20 sm:pb-20 lg:pb-20">
-      <div class="text-center mx-auto max-w-2xl mb-12">
+      <div class="text-center mx-auto w-3/6 mb-12">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-white">Discover A Beautiful Place With Us</h1>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
       </div>
-      <div class="mx-auto w-4/6 bg-white p-4 grid grid-cols-5 gap-4 mb-3">
-        <div class="col-span-2 search-field p-3">
+      <div class="mx-auto lg:w-4/6 md:w-4/6 w-6/6 bg-white p-4 grid grid-cols-5 gap-4 mb-3">
+        <div class="lg:col-span-2 md:col-span-2 col-span-5 search-field p-3">
           <label for="trip"><img src="./assets/trip-icon.svg" /></label>
           <input type="text" name="text" id="trip" placeholder="What kind of trip are you looking for?"/>
         </div>
-        <div class="col-span-2 search-field p-3">
+        <div class="lg:col-span-2 md:col-span-2 col-span-5 search-field p-3">
           <label for="location"><img src="./assets/trip-location.svg" /></label>
           <input type="text" name="text" id="location" placeholder="When do you want to go?"/>
         </div>
-        <div class="search-field-button rounded-sm">
+        <div class="search-field-button rounded-sm lg:col-span-1 md:col-span-1 col-span-5">
           <a href="#">Show holidays</a>
         </div>
       </div>
-      <div class="mx-auto w-4/6">
+      <div class="mx-auto lg:w-4/6 md:w-4/6 w-6/6">
         <div class="search-tag-heading">
           <h2>Quick Search</h2>
         </div>
