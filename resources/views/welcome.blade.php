@@ -75,7 +75,7 @@
       </div>
     </div>
     <div class="pt-20 sm:pt-40 lg:pt-40 pb-20 sm:pb-20 lg:pb-20">
-      <div class="text-center mx-auto w-3/6 mb-12">
+      <div class="text-center mx-auto lg:w-3/6 md:w-3/6 w-5/6 mb-12">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-white">Discover A Beautiful Place With Us</h1>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
       </div>
