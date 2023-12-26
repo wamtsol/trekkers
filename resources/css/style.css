@@ -316,7 +316,7 @@ body {
   object-fit: cover;
 }
 .adv_profile .adv_img {
-  height: 50px;
+  height: 70px;
 }
 .adv_profile_box {
   padding: 0px 15px;
@@ -683,4 +683,7 @@ button.slick-next.slick-arrow {
   opacity: .75;
   color: #F7A81A !important;
   -moz-osx-font-smoothing: grayscale;
+}
+.user_profile_name_info div {
+  line-height: 18px;
 }
