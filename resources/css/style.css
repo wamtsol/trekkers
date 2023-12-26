@@ -592,7 +592,7 @@ span.exp-bar {
   display: block;
   height: 380px;
   position: absolute;
-  bottom: 99%;
+  top: -120%;
   z-index: 1;
 }
 .footer .footer_logo{
@@ -650,4 +650,37 @@ span.exp-bar {
 }
 .contact_social {
   margin-bottom: 15px;
+}
+.slick-list {
+  margin: 0 -10px !important;
+  padding: 0px 0px 30px !important;
+}
+.slick-slide {
+  padding: 0px 10px;
+}
+.upcomingEventImage .slick-list {
+  padding: 0px !important;
+}
+.upcomingEventImage .slick-slide div div {
+  display: block !important;
+}
+button.slick-prev.slick-arrow {
+  position: absolute;
+  top: -32px;
+  right: 35px !important;
+  left: inherit;
+}
+
+button.slick-next.slick-arrow {
+  position: absolute;
+  top: -32px;
+  right: 0px;
+}
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 28px;
+  line-height: 1;
+  opacity: .75;
+  color: #F7A81A !important;
+  -moz-osx-font-smoothing: grayscale;
 }

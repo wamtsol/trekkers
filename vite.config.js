@@ -8,4 +8,15 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    css: {
+        preprocessorOptions: {
+          // Use styleImport to handle global imports
+          // Syntax: `@import '~<package>/<path-to-file>';`
+          scss: {
+            additionalData: `
+              @import '~normalize.css/normalize.css';
+            `,
+          },
+        },
+      },
 });
