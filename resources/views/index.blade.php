@@ -1,109 +1,4 @@
-<!doctype html>
-<html>
-<head>
-   <meta charset="UTF-8" />    
-   @vite('resources/css/app.css')
-   @vite('resources/css/style.css')
-   @vite('resources/js/app.js')
-   @vite('node_modules/slick-carousel/slick/slick.js')
-   @vite('node_modules/slick-carousel/slick/slick.css')
-   @vite('node_modules/slick-carousel/slick/slick-theme.css')
-   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-   <script type="text/javascript">
-        $(document).on('ready', function() {
-        $(".regular").slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 3
-        });
-        $(".activities").slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 3
-        });
-        $(".story").slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 3
-        });
-        $(".guide").slick({
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 3
-        });
-        
-        $(".lazy").slick({
-          lazyLoad: 'ondemand', // ondemand progressive anticipated
-          infinite: false,
-          arrows: false,
-          autoplay: true,
-          fade:true
-        });
-      });
-   </script>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-<header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <div class="flex lg:flex-1">
-        <a href="#" class="-m-1.5 p-1.5">
-          <span class="sr-only">Trekers.pk</span>
-          <img class="h-8 w-auto" src="./assets/logo-while.png" alt="">
-        </a>
-      </div>
-      <div class="flex lg:hidden">
-        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-          <span class="sr-only">Open main menu</span>
-          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
-      </div>
-      <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 text-white">Home</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 text-white">About Us</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 text-white">Trip</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 text-white">Region</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900 text-white">Contact Us</a>
-      </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign Up</a>
-      </div>
-    </nav>
-    <!-- Mobile menu, show/hide based on menu open state. -->
-    <div class="lg:hidden" role="dialog" aria-modal="true">
-      <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-50"></div>
-      <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-        <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-          </a>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <div class="mt-6 flow-root">
-          <div class="-my-6 divide-y divide-gray-500/10">
-            <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 text-white">Product</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 text-white">Features</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 text-white">Marketplace</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 text-white">Company</a>
-            </div>
-            <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</header>
+@include('header')
   <div class="relative isolate px-6 pt-14 lg:px-8">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu min-h-screen" aria-hidden="true">
       <div class="relative sliderImg">
@@ -111,7 +6,7 @@
       </div>
     </div>
     <div class="pt-20 sm:pt-40 lg:pt-40 pb-20 sm:pb-20 lg:pb-20">
-      <div class="text-center mx-auto w-3/6 mb-12">
+      <div class="text-center mx-auto lg:w-3/6 md:w-4/6 w-6/6 mb-12">
         <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl text-white">Discover A Beautiful Place With Us</h1>
         <p class="mt-6 text-lg leading-8 text-gray-600 text-white">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
       </div>
@@ -536,7 +431,7 @@
         </div>
       </div>
       <div class="w-full xl:w-7/12 lg:w-7/12 md:w-7/12 lg:pt-10">
-        <div class="upcomingEventDetails sm:px-10 sm:py-10">
+        <div class="upcomingEventDetails px-10 py-10">
             <span>Up Comming Trip</span>
             <h2>Up Comming Trip</h2>
             <p>Biafo Glacier is a shocking 63-kilometer-long glacial mass situated in the Karakoram mountain scope of Pakistan. It is viewed as one of the longest and biggest icy masses outside the polar areas. The icy mass is a well-known objective among experienced searchers, particularly ice climbers, because of its difficult territory and shocking perspectives.</p>
@@ -1130,50 +1025,4 @@
       </div>
     </div>
   </div>
-    <div class="footer z-10 relative">
-      <div class="md:container mx-auto px-8">  
-        <div class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 mb-5">
-            <div class="footer_section">
-                <div class="footer_logo"><img src="./assets/footer_trakker.png"/></div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-            </div>
-            <div class="footer_section">
-                <h3>Keep in Touch</h3>
-                <div class="footer_menu">
-                    <a href="#">About Us</a>
-                    <a href="#">Contributor</a>
-                    <a href="#">Traking</a>
-                    <a href="#">Contact Us</a>
-                </div>
-            </div>
-            <div class="footer_section">
-                <h3>Contact Info</h3>
-                <div class="footer_contact_details">
-                    <div class="contact_info">
-                        <address>Lorem Ipsum is simply dummy text of the printing.</address>
-                    </div>
-                    <div class="contact_info">
-                        <a href="tel:#">0123  4567 890</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer_section">
-                <h3>Social Info</h3>
-                <div class="footer_contact_details">
-                    <div class="contact_social">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>
-                    <div class="social_icon">
-                        <a href="#"><img src="./assets/fb.png"/></a>
-                        <a href="#"><img src="./assets/tw.png"/></a>
-                        <a href="#"><img src="./assets/in.png"/></a>
-                        <a href="#"><img src="./assets/ing.png"/></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-</body>
-</html>
-
+  @include('footer')

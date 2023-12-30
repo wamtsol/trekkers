@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index', ['bodyClass' => 'home']);
 });
+Route::get('trip', function () {
+    return view('trip', ['bodyClass' => 'trip']);
+});
+
