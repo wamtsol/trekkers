@@ -2,16 +2,16 @@
 <html>
 <head>
    <meta charset="UTF-8" />
-   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>    
+   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script> 
    @vite('resources/js/app.js')
    @vite('resources/css/app.css')
-   @vite('resources/css/style.css')
-   @vite('resources/js/custom.js')
    @vite('resources/js/mychart.js')
+   @vite('public/js/custom.js')
+   @vite('public/css/style.css')
    @vite('node_modules/slick-carousel/slick/slick.js')
    @vite('node_modules/slick-carousel/slick/slick.css')
    @vite('node_modules/slick-carousel/slick/slick-theme.css')
-   
+   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>

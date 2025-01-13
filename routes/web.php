@@ -19,4 +19,6 @@ Route::get('/', function () {
 Route::get('trip', function () {
     return view('trip', ['bodyClass' => 'trip']);
 });
-
+Route::get('package', function () {
+    return view('package', ['bodyClass' => 'package']);
+});

@@ -44,3 +44,124 @@
     </div>
 </body>
 </html>
+<script>
+    $(document).on('ready', function() {
+    $(".regular").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      prevArrow: '<button class="adv-slide-arrow prev-arrow"><img src="./assets/slider-icon-left.png"/></button>',
+      nextArrow: '<button class="adv-slide-arrow next-arrow"><img src="./assets/slider-icon-right.png"/></button>',
+      responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            }
+        }
+      ]
+    });
+    $(".activities").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      prevArrow: '<button class="adv-slide-arrow prev-arrow"><img src="./assets/slider-icon-left.png"/></button>',
+      nextArrow: '<button class="adv-slide-arrow next-arrow"><img src="./assets/slider-icon-right.png"/></button>',
+      responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            }
+        }
+      ]
+    });
+    $(".story").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      prevArrow: '<button class="story-slide-arrow prev-arrow"><img src="./assets/slider-icon-left.png"/></button>',
+      nextArrow: '<button class="story-slide-arrow next-arrow"><img src="./assets/slider-icon-right.png"/></button>',
+      responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            }
+        }
+      ]
+    });
+    $(".guide").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 3,
+      prevArrow: '<button class="story-slide-arrow prev-arrow"><img src="./assets/slider-icon-left.png"/></button>',
+      nextArrow: '<button class="story-slide-arrow next-arrow"><img src="./assets/slider-icon-right.png"/></button>',
+      responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            }
+        }
+      ]
+    });
+    
+    $(".lazy").slick({
+      lazyLoad: 'ondemand', // ondemand progressive anticipated
+      infinite: false,
+      arrows: false,
+      autoplay: true,
+      fade:true,
+      responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            }
+        }
+      ]
+    });
+  });
+</script>

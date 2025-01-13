@@ -460,11 +460,11 @@
     <div class="guide slider grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 mb-5">
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -473,11 +473,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -533,11 +533,11 @@
       </div>  
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -546,11 +546,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -606,11 +606,11 @@
       </div>  
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -619,11 +619,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -679,11 +679,11 @@
       </div>  
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -692,11 +692,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -752,11 +752,11 @@
       </div>  
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -765,11 +765,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -825,11 +825,11 @@
       </div>  
       <div class="adv_item Act_item adv_profile">
         <div class="adv_img">
-          <img src="../../assets/productslideritem.png"/>
+          <img src="../assets/productslideritem.png"/>
         </div>
         <div class="adv_profile_box">
             <div class="user_profile">
-              <div class="user_profile_img"><img src="../../assets/profile_img.jpg" /></div>
+              <div class="user_profile_img"><img src="../assets/profile_img.jpg" /></div>
               <div class="user_profile_name_info">
                 <div class="user_name">
                   <span>User Name</span>
@@ -838,11 +838,11 @@
                   <span>Tour Guide</span>
                 </div>
                 <div class="user_reviews">
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
-                  <span><img src="../../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
+                  <span><img src="../assets/star.svg"/></span>
                   /5
                 </div>
               </div>
@@ -910,7 +910,7 @@
     <div class="story slider grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 gap-5 mb-10">
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -920,7 +920,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
@@ -929,7 +929,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -939,7 +939,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
@@ -948,7 +948,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -958,7 +958,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
@@ -967,7 +967,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -977,7 +977,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
@@ -986,7 +986,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -996,7 +996,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
@@ -1005,7 +1005,7 @@
         </div>
         <div class="testimonial">
           <div class="testimonial_inn">
-            <div class="testimonial-img"><img src="../../assets/text-img.png"/></div>
+            <div class="testimonial-img"><img src="../assets/text-img.png"/></div>
             <div class="testimonial-details">
               <h2>Lorem ipsum, or lipsum as it is sometimes known</h2>
               <div class="tagAndDate">
@@ -1015,7 +1015,7 @@
             </div>
           </div>
           <div class="testimonial_user_details">
-              <div class="testimonial_user_img"><img src="../../assets/profile_img.jpg"/></div>
+              <div class="testimonial_user_img"><img src="../assets/profile_img.jpg"/></div>
               <div class="testimonial_user_name">
                 <p>Lorem ipsum dolor</p>
                 <span>Lorem ipsum dolor</span>
